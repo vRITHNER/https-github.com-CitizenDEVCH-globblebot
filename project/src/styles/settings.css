@@ -1,0 +1,15 @@
+.settings-nav-item {
+  @apply flex items-center gap-2 px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-colors;
+}
+
+.settings-nav-item.active {
+  @apply text-indigo-600 bg-indigo-50 font-medium;
+}
+
+.settings-nav-item svg {
+  @apply text-gray-400 group-hover:text-gray-500;
+}
+
+.settings-nav-item.active svg {
+  @apply text-indigo-500;
+}
